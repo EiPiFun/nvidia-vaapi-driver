@@ -1,3 +1,11 @@
+nvidia-vaapi-driver (0.0.12-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release v0.0.12 (Closes: #1057194, Closes: #1077308).
+  * Add 0001-Fix-typo.patch.
+
+ -- DONG XU <me@eipi.fun>  Tue, 30 Jul 2024 11:21:17 +0900
+
 nvidia-vaapi-driver (0.0.8-1) unstable; urgency=medium
 
   * New upstream release.

@@ -1,0 +1,16 @@
+Description: Fix typo
+Author: DONG XU <me@eipi.fun>
+Forwarded: no
+Last-Update: 2024-07-31
+
+--- nvidia-vaapi-driver-0.0.12.orig/src/export-buf.c
++++ nvidia-vaapi-driver-0.0.12/src/export-buf.c
+@@ -340,7 +340,7 @@ static void egl_detachBackingImageFromSu
+ 
+     if (surface->backingImage->fourcc == DRM_FORMAT_NV21) {
+         if (!egl_destroyBackingImage(drv, surface->backingImage)) {
+-            LOG("Unable to destory backing image");
++            LOG("Unable to destroy backing image");
+         }
+     } else {
+         pthread_mutex_lock(&drv->imagesMutex);
