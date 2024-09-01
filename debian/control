@@ -1,12 +1,13 @@
 Source: nvidia-vaapi-driver
 Section: video
 Priority: optional
-Maintainer: Lu YaNing <dluyaning@gmail.com>
+Maintainer: Dong Xu <me@eipi.fun>
+Uploaders: Lu YaNing <dluyaning@gmail.com>
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-libva,
-               libffmpeg-nvenc-dev (>= 11.1.5.1~),
+               libffmpeg-nvenc-dev,
                libgstreamer-plugins-bad1.0-dev,
-               meson (>= 0.58.0~),
+               meson,
 Standards-Version: 4.7.0
 Homepage: https://github.com/elFarto/nvidia-vaapi-driver
 Vcs-Browser: https://salsa.debian.org/EiPiFun/nvidia-vaapi-driver

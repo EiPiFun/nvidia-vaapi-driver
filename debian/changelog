@@ -1,3 +1,14 @@
+nvidia-vaapi-driver (0.0.12-1) unstable; urgency=medium
+
+  * Adopt package (Closes: #1077667).
+  * Small changes:
+    - Add missing metadata;
+    - Remove dependency version requirement;
+    - Add upstream forward information for 0001-Fix-typo.patch;
+    - Change name from DONG XU to Dong Xu.
+
+ -- Dong Xu <me@eipi.fun>  Sun, 01 Sep 2024 17:36:03 +0800
+
 nvidia-vaapi-driver (0.0.12-0.1) unstable; urgency=medium
 
   * Non-maintainer upload.

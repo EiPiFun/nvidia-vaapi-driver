@@ -1,6 +1,6 @@
 Description: Fix typo
-Author: DONG XU <me@eipi.fun>
-Forwarded: no
+Author: Dong Xu <me@eipi.fun>
+Forwarded: upstream commit 54442d8
 Last-Update: 2024-07-31
 
 --- nvidia-vaapi-driver-0.0.12.orig/src/export-buf.c
